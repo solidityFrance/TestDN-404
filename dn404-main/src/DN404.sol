@@ -1,21 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-/// @title DN404
-/// @notice DN404 is a hybrid ERC20 and ERC721 implementation that mints
-/// and burns NFTs based on an account's ERC20 token balance.
-///
-/// @author vectorized.eth (@optimizoor)
-/// @author Quit (@0xQuit)
-/// @author Michael Amadi (@AmadiMichaels)
-/// @author cygaar (@0xCygaar)
-/// @author Thomas (@0xjustadev)
-/// @author Harrison (@PopPunkOnChain)
-///
-/// @dev Note:
-/// - The ERC721 data is stored in this base DN404 contract, however a
-///   DN404Mirror contract ***MUST*** be deployed and linked during
-///   initialization.
+
 abstract contract DN404 {
     /*«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-«-*/
     /*                           EVENTS                           */
